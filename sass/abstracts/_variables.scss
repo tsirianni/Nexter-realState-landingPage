@@ -16,3 +16,10 @@ $red: #ff0000;
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
+
+// Breakpoints
+$desktop: 75em; // 1200px
+$tablet-like: 56.25em; // 900px
+$tablet-small: 46.875em; // 750
+$phone: 34.375em; // 550px
+$phone-small: 28.125em;

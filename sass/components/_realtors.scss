@@ -8,22 +8,31 @@
   grid-row-gap: 2rem;
   justify-items: center;
 
+  @media only screen and (max-width: $tablet-small) {
+    grid-column: 1 / -1;
+  }
+
+
   &__list {
     display: grid;
-    grid-template-columns: min-content max-content;
+    
     grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: $tablet-small) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @media only screen and (max-width: $phone) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {
     width: 8rem;
     border-radius: 50%;
     display: block;
-  }
-
-  &__details {
-
   }
 
   &__sold {
