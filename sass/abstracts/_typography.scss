@@ -1,5 +1,8 @@
 .heading-1 {
   @extend %headings;
+  font-size: 4.5rem;
+  color: $grey-light-1;
+  line-height: 1;
 }
 
 .heading-2 {
